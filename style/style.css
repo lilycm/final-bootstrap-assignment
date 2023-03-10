@@ -7,8 +7,11 @@ body{
 .container-start{
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 5%;
     text-align: center;
+}
+.container-start p{
+    padding: 0 10px 0 10px;
 }
 .container-start a{
     text-decoration: none;
@@ -283,12 +286,6 @@ footer{
     .package-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-    .package{
-        align-items: center;
-    }
-    .package.access{
-        align-self: center;
     }
     .absolute-btn{
         top: -12px;
