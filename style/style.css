@@ -263,8 +263,7 @@ footer{
     .clients{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    
-    }
+}
     .client img{
         height: 10vh;
         width: 15vw;
@@ -408,4 +407,50 @@ footer{
             position: fixed;
         }
         
+}
+/* media query for tab start */
+@media screen and (min-width:768px) and (max-width:992px){
+    .home-section{
+        width: 100%;
+    }
+    .c-img{
+        filter: brightness(.7);
+        height: 100%;
+        width: 100%;
+        }
+        .c-item{
+            height: 65vh;
+        }
+        .c-item h2{
+            text-align: center;
+        }
+        .navbar{
+            position: fixed;
+        }
+        .moment-section{
+            width: 100%;
+        }
+        .moment{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+        }
+        .moment-img img{
+            height: 30vh;
+            width: 50vw;
+            text-align: center;
+        }
+        .moment-text{
+            width: 50vw;
+        }
+        .package-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .clients{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
 }
