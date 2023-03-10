@@ -284,6 +284,12 @@ footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .package{
+        align-items: center;
+    }
+    .package.access{
+        align-self: center;
+    }
     .absolute-btn{
         top: -12px;
         right: 5px;
@@ -293,11 +299,8 @@ footer{
         width: 100%;
     }
     .moment{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        align-items: center;
-        margin-top: 80px;
+        display: flex;
+        flex-direction: column-reverse;
     }
     .moment-text{
         margin-left: 25px;
