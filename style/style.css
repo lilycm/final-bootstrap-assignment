@@ -93,9 +93,22 @@ body{
     background: blue;
     border: none;
     color: white;
-    border-radius: 5px;
+    border-radius: 25px;
     top: -50px;
     
+}
+.hot-button{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    left: 210px;
+    top: -10px;
+    display: none;
+    background: linear-gradient(rgb(255, 0, 0), rgb(109, 2, 2));
+}
+.package1:hover .hot-button{
+    display: block;
 }
 .package:hover .link-plan a{
     background: white;
