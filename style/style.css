@@ -56,6 +56,7 @@ body{
 .test{
     margin-left: 240px;
     border: none;
+    border-left: 7px solid rgb(0, 89, 255);
 }
 .access{
     display: flex;
@@ -281,8 +282,8 @@ footer{
         grid-template-columns: repeat(1, 1fr);
 }
     .client img{
-        height: 10vh;
-        width: 15vw;
+        height: 8vh;
+        width: 25vw;
     }
     .client{
         background: white;
@@ -310,9 +311,10 @@ footer{
         right: 5px;
     }
     .explore-link {
-        display: block;
-        margin-top: 40px;
-        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
     }
     .explore-link a{
         text-decoration: none;
@@ -454,10 +456,14 @@ footer{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
         }
+        .client img{
+            height: 7vh;
+            width: 17vw;
+        }
         .container-start{
             position: absolute;
             top: 50%;
-            left: 12%;
+            left: 0%;
             text-align: center;
         }
         .container-start a{
