@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.c-item{
+    height: 680px;
+}
+.carousel-caption h2{
+    margin-top: 250px;
+}
+.btn:hover{
+    background: linear-gradient(rgb(128, 0, 0), rgb(255, 0, 0));
+    border: none;
+   
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    color: white;
+}
+.moment{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.moment-text{
+    margin-left: 25px;
+}
+.moment-img img{
+    margin-top: 10px;
+    border-radius: 3px;
+    height: 55vh;
+}
+.moment-text a{
+    text-decoration: none;
+    background: linear-gradient(rgb(128, 0, 0), rgb(255, 0, 0));
+    color: white;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+.test{
+    margin-left: 240px;
+    border: none;
+}
+.access{
+    display: flex;
+}
+.access img{
+    width: 2vw;
+    height: 4vh;
+}
+.access-text{
+    margin-left: 10px;
+}
+.package-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.absolute-btn{
+    top: -12px;
+    right: 5px;
+}
+.absolute-btn{
+    display: none;
+}
+.package,
+.package1{
+    border: 1px solid blue;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition:all .2s ease;
+}
+.package:hover{
+    background: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.package1:hover{
+    background: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px;
+    top: -50px;
+   
+}
+.package1:hover .absolute-btn{
+    display: visible;
+    top: -12px;
+    right: 5px;
+    opacity: 0;
+}
+.package:hover .link-plan a{
+    background: white;
+    color: black;
+}
+.package1:hover .link-plan a{
+    background: white;
+    color: black;
+}
+
+.link-plan a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(128, 0, 0), rgb(255, 0, 0));
+    padding: 5px 7px;
+    margin: 0 50px;
+    border-radius: 5px;
+}
+.img-fluid1{
+    border-radius: 50%;
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.client img{
+    height: 18vh;
+}
+.client{
+    background: white;
+    box-shadow: 5px 5px 15px;
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.accordion-section{
+    margin: 0 30px;
+}
+.accordion-section img{
+    border-radius: 7px;
+}
+footer{
+   background-color: black;
+   height: 50vh;
+}
+.app-store{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 10vh;
+    width: 15vw;
+    margin-top: 20px;
+}
+.app-store h5{
+    margin-left: 65px;
+    position: relative;
+}
+.app-store h5{
+    position: absolute;
+    margin-top: -5px;
+}
+.app-store img{
+    position: relative;
+    margin-left: 15px;
+    width: 4vw;
+}
+.app-store small{
+    margin-left: 70px;
+}
+.app-store img{
+    position: absolute;
+    margin-top: 5px;
+}
+.information
+{
+    margin-top: 60px;
+}
+.copyright{
+    margin-top: 150px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* media query for mobile */
+@media screen and (max-width: 767px){
+    footer{
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+     }
+     .app-store{
+         border: 1px solid white;
+         border-radius: 5px;
+         height: 10vh;
+         width: 50vw;
+         margin-top: 20px;
+     }
+     .app-store h5{
+         margin-left: 65px;
+         position: relative;
+     }
+     .app-store h5{
+         position: absolute;
+         margin-top: -5px;
+     }
+     .app-store img{
+         position: relative;
+         margin-left: 15px;
+         width: 10vw;
+     }
+     .app-store small{
+         margin-left: 70px;
+     }
+     .app-store img{
+         position: absolute;
+         margin-top: 5px;
+     }
+     .information
+     {
+         margin-top: 60px;
+     }
+     .copyright{
+         margin-top: 150px;
+     }
+     .footer-info{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+        margin-left: 90px;
+     }
+     .asked-section{
+        width: 100%;
+     }
+     .accordion-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .accordion-section{
+        margin: 0 30px;
+    }
+    .accordion-section img{
+        border-radius: 7px;
+    }
+    .client-section{
+        width: 100%;
+    }
+    .clients{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .client img{
+        height: 10vh;
+        width: 15vw;
+    }
+    .client{
+        background: white;
+        box-shadow: 5px 5px 15px;
+        margin: 10px 15px;
+        padding: 10px 15px;
+        width: 85vw;
+        margin-left: 15px;
+    }
+    .client{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .package-plan {
+        width: 100%;
+    }
+    .package-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .absolute-btn{
+        top: -12px;
+        right: 5px;
+    }
+    .absolute-btn{
+        display: none;
+    }
+    .package,
+    .package1{
+        border: 1px solid blue;
+        margin: 0 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition:all .2s ease;
+        margin: 15px;
+    }
+    .package:hover{
+        background: blue;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+    .package1:hover{
+        background: blue;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 5px 10px 20px;
+        top: -50px;
+       
+    }
+    .package1:hover .absolute-btn{
+        display: visible;
+        top: -12px;
+        right: 5px;
+        opacity: 0;
+    }
+    .package:hover .link-plan a{
+        background: white;
+        color: black;
+    }
+    .package1:hover .link-plan a{
+        background: white;
+        color: black;
+    }
+    
+    .link-plan a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(rgb(128, 0, 0), rgb(255, 0, 0));
+        padding: 5px 7px;
+        margin: 0 50px;
+        border-radius: 5px;
+        font-size: smaller;
+    }
+    .img-fluid1{
+        border-radius: 50%;
+    }
+    .moment-section{
+        width: 100%;
+    }
+    .moment{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .moment-text{
+        margin-left: 25px;
+    }
+    .moment-img img{
+        margin-top: 10px;
+        border-radius: 3px;
+        
+    }
+    .moment-img img{
+        height: 40vh;
+        width: 8vw;
+        text-align: center;
+    }
+    .moment-text h3, p {
+       text-align: center;
+    }
+    .moment-text p{
+        padding: 0 10px;
+    }
+    .moment-text a{
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+    .test{
+        margin-left: 0px;
+        border: none;
+        position: absolute;
+    }
+    
+    .home-section{
+        width: 100%;
+    }
+    .c-img{
+        filter: brightness(.7);
+        height: 100%;
+       
+        width: 100%;
+        }
+        .c-item{
+            height: 680px;
+        }
+        
+}
