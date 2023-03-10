@@ -28,7 +28,9 @@ body{
     height: 680px;
     filter: brightness(.7);
 }
-
+.explore-link{
+    display: none;
+}
 .moment{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -68,10 +70,6 @@ body{
 .package-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
-.absolute-btn{
-    top: -12px;
-    right: 5px;
 }
 .package,
 .package1{
@@ -304,7 +302,22 @@ footer{
         top: -12px;
         right: 5px;
     }
-
+    .explore-link {
+        display: block;
+        margin-top: 40px;
+        margin-left: 160px;
+    }
+    .explore-link a{
+        text-decoration: none;
+        color: white;
+       
+        background: linear-gradient(rgb(128, 0, 0), rgb(255, 0, 0));
+        padding: 5px 7px;
+        border-radius: 5px;
+    }
+    .confuse-link{
+        display: none;
+    }
     .moment-section{
         width: 100%;
     }
