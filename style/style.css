@@ -255,10 +255,13 @@ footer{
          margin-top: 150px;
      }
      .footer-info{
-         display: grid;
-         grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         margin-left: 90px;
      }
+     .footer-info .copyright p{
+        margin-right: 60px;
+    }
      .asked-section{
         width: 100%;
      }
@@ -486,5 +489,8 @@ footer{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        .footer-info .copyright p{
+            margin: 0px;
         }
 }
